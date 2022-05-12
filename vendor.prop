@@ -102,6 +102,7 @@ ro.vendor.mtk_log_hide_gps=1
 # HWUI
 debug.hwui.target_cpu_time_percent=60
 debug.hwui.use_hint_manager=true
+debug.hwui.skia_atrace_enabled=false
 
 # LMKD
 ro.lmk.kill_heaviest_task=true
