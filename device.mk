@@ -342,6 +342,9 @@ PRODUCT_PACKAGES += \
     TetheringResOverlayBeryl \
     WifiResOverlayBeryl
 
+PRODUCT_PACKAGES += \
+    ApertureOverlay
+
 # Properties
 include $(LOCAL_PATH)/vendor_logtag.mk
 
