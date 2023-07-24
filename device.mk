@@ -302,6 +302,9 @@ PRODUCT_PACKAGES += \
     TetheringResOverlayBeryl \
     WifiResOverlayBeryl
 
+# Properties
+include $(LOCAL_PATH)/vendor_logtag.mk
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
