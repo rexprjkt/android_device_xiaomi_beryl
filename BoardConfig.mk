@@ -13,6 +13,9 @@ TARGET_CPU_ABI := arm64-v8a
 TARGET_CPU_VARIANT := cortex-a76
 TARGET_CPU_VARIANT_RUNTIME := cortex-a76
 
+# Enable 64-bit for non-zygote.
+ZYGOTE_FORCE_64 := true
+
 # Build the 32 bit targets
 TARGET_2ND_ARCH := arm
 TARGET_2ND_ARCH_VARIANT := armv8-2a
