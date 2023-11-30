@@ -263,6 +263,7 @@ PRODUCT_PACKAGES += \
     FrameworksResOverlayBeryl \
     SettingsResOverlayBeryl \
     SystemUIOverlayBeryl \
+    TetheringResOverlayBeryl \
     WifiResOverlayBeryl
 
 # Soong namespaces
