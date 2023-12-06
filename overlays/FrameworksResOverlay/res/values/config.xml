@@ -515,4 +515,7 @@
          manager will disable alpha trasformation in animations where notAdd commentMore actions
          strictly needed. -->
     <bool name="config_sf_limitedAlpha">true</bool>
+    
+    <!-- Type of the udfps long press sensor. Empty if long press is not supported. -->
+    <string name="config_dozeUdfpsLongPressSensorType" translatable="false">org.lineageos.sensor.udfps</string>
 </resources>
