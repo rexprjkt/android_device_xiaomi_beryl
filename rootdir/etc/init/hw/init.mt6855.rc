@@ -1130,6 +1130,10 @@ on property:persist.vendor.mediatek.fast_charging.support=*
 on boot
     insmod /vendor/lib/modules/fpsgo.ko
 
+    # Touch feature
+    chown system system /dev/xiaomi-touch
+    chmod 0660 /dev/xiaomi-touch
+
 # VSIM service (vendor OSI)
 service osi /system/bin/osi
     class main
