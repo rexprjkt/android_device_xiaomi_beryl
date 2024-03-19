@@ -2688,7 +2688,9 @@ vendor/bin/volte_rcs_ua
 vendor/etc/init/volte_clientapi_ua.rc
 vendor/etc/init/init.vtservice_hidl.rc
 vendor/etc/smsdbvisitor.xml
+vendor/lib/librcs_interface.so
 vendor/lib/librcs_volte_core.so
+vendor/lib/vendor.mediatek.hardware.rcs@2.0.so
 vendor/lib64/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so
 vendor/lib64/vendor.mediatek.hardware.clientapi@1.0.so
 vendor/lib64/vendor.mediatek.hardware.videotelephony@1.0.so;MODULE_SUFFIX=_vendor
