@@ -88,6 +88,10 @@ ro.vendor.mtk_agps_app=1
 ro.vendor.mtk_gps_support=1
 ro.vendor.mtk_log_hide_gps=1
 
+# HWUI
+debug.hwui.target_cpu_time_percent=30
+debug.hwui.use_hint_manager=true
+
 # Media
 debug.stagefright.c2inputsurface=-1
 debug.mediatek.appgamepq_compress=1
