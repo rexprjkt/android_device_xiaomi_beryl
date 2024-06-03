@@ -103,6 +103,9 @@ ro.vendor.mtk_log_hide_gps=1
 debug.hwui.target_cpu_time_percent=60
 debug.hwui.use_hint_manager=true
 
+# LMKD
+ro.lmk.kill_heaviest_task=true
+
 # Media
 debug.stagefright.c2inputsurface=-1
 debug.mediatek.appgamepq_compress=1
