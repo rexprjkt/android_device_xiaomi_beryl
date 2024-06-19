@@ -99,7 +99,8 @@ blob_fixups: blob_fixups_user_type = {
     .patchelf_version(patchelf_version)
     .add_needed("liblog.so"),
     (
-        "vendor/lib64/mt6855/libmtkcam_stdutils.so"
+        "vendor/lib64/mt6855/libmtkcam_stdutils.so",
+        "vendor/lib64/hw/mt6855/android.hardware.camera.provider@2.6-impl-mediatek.so"
     ): blob_fixup()
     .patchelf_version(patchelf_version)
     .replace_needed("libutils.so", "libutils-v32.so"),
