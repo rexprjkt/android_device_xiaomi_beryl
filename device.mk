@@ -83,6 +83,9 @@ PRODUCT_PACKAGES += \
     libtinycompress \
     libdynproc
 
+PRODUCT_PACKAGES += \
+    XiaomiDolby
+
 # Audio Configuration
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/audio/,$(TARGET_COPY_OUT_VENDOR)/etc)
