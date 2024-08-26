@@ -159,6 +159,8 @@ blob_fixups: blob_fixups_user_type = {
     .add_needed('libssl-v32.so'),
     'vendor/lib64/mt6855/libmnl.so': blob_fixup()
     .add_needed('libcutils.so'),
+    'system_ext/priv-app/ImsService/ImsService.apk': blob_fixup()
+    .apktool_patch('blob-patches/ImsService.patch', '-r'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
