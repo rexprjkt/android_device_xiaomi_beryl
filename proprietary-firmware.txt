@@ -1,0 +1,12 @@
+# Firmware from V816.0.12.0.UOQMIXM
+dpm.img;AB
+gz.img;AB
+lk.img;AB
+mcupm.img;AB
+md1img.img;AB
+pi_img.img;AB
+preloader_beryl.bin:preloader_raw.img;AB|5cd94c9a8ced18265017adc397068db65107f239
+scp.img;AB
+spmfw.img;AB
+sspm.img;AB
+tee.img;AB
