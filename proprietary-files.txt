@@ -271,6 +271,10 @@ vendor/firmware/WIFI_RAM_CODE_soc2_2_1b_1.bin
 vendor/firmware/WIFI_RAM_CODE_soc2_2_1c_1.bin
 vendor/firmware/WMT_SOC.cfg
 
+# Gatekeeper
+vendor/lib64/hw/gatekeeper.mitee.so
+vendor/lib64/hw/libSoftGatekeeper.so
+
 # Graphics
 vendor/bin/hw/mt6855/android.hardware.graphics.allocator@4.0-service-mediatek.mt6855
 vendor/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc
