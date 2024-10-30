@@ -1,5 +1,16 @@
 # Unpinned blobs from missi_phone_global-user-14-UP1A.231005.007-V816.0.12.0.UOQMIXM-release-keys
 
+# AAL
+vendor/lib64/libaal_cust.so
+vendor/lib64/libaal_key.so
+vendor/lib64/libaal_mtk.so
+vendor/lib64/mt6855/libaal_cust_func.so
+vendor/lib64/mt6855/libaalservice.so
+
+# AEE
+vendor/lib/libaedv.so
+vendor/lib64/libaedv.so
+
 # Audio
 vendor/lib64/hw/audio.primary.mediatek.so
 vendor/lib64/hw/audio.r_submix.mediatek.so
@@ -154,6 +165,84 @@ vendor/etc/sixth_param/sixth_param_boost2.txt
 vendor/etc/sixth_param/sixth_param.txt
 vendor/etc/sixth_param/sixth_param_voip.txt
 
+# Display configs
+vendor/etc/AbnormalDisplayLog_dynamic.xml
+vendor/etc/cust_color.xml
+vendor/etc/dsi_panel_o17_38_0c_0a_fhdp_vdo_mi.xml
+vendor/etc/screen_light.xml
+vendor/etc/disp0/dsi_panel_o17_38_0c_0a_fhdp_vdo/cct_pcc.txt
+vendor/etc/disp0/dsi_panel_o17_38_0c_0a_fhdp_vdo/miLut_0.txt
+vendor/etc/disp0/dsi_panel_o17_38_0c_0a_fhdp_vdo/miLut_10.txt
+vendor/etc/disp0/dsi_panel_o17_38_0c_0a_fhdp_vdo/miLut_11.txt
+vendor/etc/disp0/dsi_panel_o17_38_0c_0a_fhdp_vdo/miLut_12.txt
+vendor/etc/disp0/dsi_panel_o17_38_0c_0a_fhdp_vdo/miLut_13.txt
+vendor/etc/disp0/dsi_panel_o17_38_0c_0a_fhdp_vdo/miLut_14.txt
+vendor/etc/disp0/dsi_panel_o17_38_0c_0a_fhdp_vdo/miLut_15.txt
+vendor/etc/disp0/dsi_panel_o17_38_0c_0a_fhdp_vdo/miLut_16.txt
+vendor/etc/disp0/dsi_panel_o17_38_0c_0a_fhdp_vdo/miLut_17.txt
+vendor/etc/disp0/dsi_panel_o17_38_0c_0a_fhdp_vdo/miLut_18.txt
+vendor/etc/disp0/dsi_panel_o17_38_0c_0a_fhdp_vdo/miLut_19.txt
+vendor/etc/disp0/dsi_panel_o17_38_0c_0a_fhdp_vdo/miLut_1.txt
+vendor/etc/disp0/dsi_panel_o17_38_0c_0a_fhdp_vdo/miLut_20.txt
+vendor/etc/disp0/dsi_panel_o17_38_0c_0a_fhdp_vdo/miLut_21.txt
+vendor/etc/disp0/dsi_panel_o17_38_0c_0a_fhdp_vdo/miLut_22.txt
+vendor/etc/disp0/dsi_panel_o17_38_0c_0a_fhdp_vdo/miLut_23.txt
+vendor/etc/disp0/dsi_panel_o17_38_0c_0a_fhdp_vdo/miLut_24.txt
+vendor/etc/disp0/dsi_panel_o17_38_0c_0a_fhdp_vdo/miLut_25.txt
+vendor/etc/disp0/dsi_panel_o17_38_0c_0a_fhdp_vdo/miLut_26.txt
+vendor/etc/disp0/dsi_panel_o17_38_0c_0a_fhdp_vdo/miLut_27.txt
+vendor/etc/disp0/dsi_panel_o17_38_0c_0a_fhdp_vdo/miLut_28.txt
+vendor/etc/disp0/dsi_panel_o17_38_0c_0a_fhdp_vdo/miLut_29.txt
+vendor/etc/disp0/dsi_panel_o17_38_0c_0a_fhdp_vdo/miLut_2.txt
+vendor/etc/disp0/dsi_panel_o17_38_0c_0a_fhdp_vdo/miLut_30.txt
+vendor/etc/disp0/dsi_panel_o17_38_0c_0a_fhdp_vdo/miLut_3.txt
+vendor/etc/disp0/dsi_panel_o17_38_0c_0a_fhdp_vdo/miLut_4.txt
+vendor/etc/disp0/dsi_panel_o17_38_0c_0a_fhdp_vdo/miLut_5.txt
+vendor/etc/disp0/dsi_panel_o17_38_0c_0a_fhdp_vdo/miLut_6.txt
+vendor/etc/disp0/dsi_panel_o17_38_0c_0a_fhdp_vdo/miLut_7.txt
+vendor/etc/disp0/dsi_panel_o17_38_0c_0a_fhdp_vdo/miLut_8.txt
+vendor/etc/disp0/dsi_panel_o17_38_0c_0a_fhdp_vdo/miLut_9.txt
+vendor/etc/disp0/dsi_panel_o17_38_0c_0a_fhdp_vdo/miLutInfo.txt
+
+# Graphics
+vendor/bin/hw/mt6855/android.hardware.graphics.allocator@4.0-service-mediatek.mt6855
+vendor/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc
+vendor/etc/meow.cfg
+vendor/lib/egl/egl.cfg
+vendor/lib64/egl/libMEOW_trace.so
+vendor/lib64/egl/mt6855/libEGL_mtk.so
+vendor/lib64/egl/mt6855/libGLESv1_CM_mtk.so
+vendor/lib64/egl/mt6855/libGLESv2_mtk.so
+vendor/lib64/egl/libMEOW_qt.so
+vendor/lib64/egl/libMEOW_gift.so
+vendor/lib64/egl/libMEOW_data.so
+vendor/lib64/egl/libGLES_meow.so
+vendor/lib64/hw/hwcomposer.mtk_common.so
+vendor/lib64/hw/mt6855/android.hardware.graphics.mapper@4.0-impl-mediatek.so
+vendor/lib64/hw/mt6855/gralloc.rogue.so
+vendor/lib64/mt6855/libmemtrack_GL.so
+vendor/lib64/mt6855/libmpvr.so
+vendor/lib64/hw/mt6855/vulkan.mtk.so
+vendor/lib64/libDefaultFpsActor.so
+vendor/lib64/libFrameRecord.so
+vendor/lib64/libNoFpsActor.so
+vendor/lib64/libOpenCL.so
+vendor/lib64/libcomposer_ext.so
+vendor/lib64/libged.so
+vendor/lib64/libgpu_aux.so
+vendor/lib64/libgpud.so
+vendor/lib64/libgralloc_extra.so
+vendor/lib64/libgralloc_metadata.so
+vendor/lib64/libgralloctypes_mtk.so
+vendor/lib64/libion_mtk.so
+vendor/lib64/libion_ulit.so
+vendor/lib64/libladder.so
+vendor/lib64/libmml.so
+vendor/lib64/libpixelflinger.so
+vendor/lib64/mt6855/libaiselector.so
+vendor/lib64/mt6855/libdpframework.so
+vendor/lib64/vendor.mediatek.hardware.composer_ext@1.0.so
+
 # NVRAM
 vendor/bin/fuelgauged
 vendor/bin/fuelgauged_nvram
@@ -173,6 +262,32 @@ vendor/lib64/libnvram.so
 vendor/lib64/libnvram_sec.so
 vendor/lib64/vendor.mediatek.hardware.nvram@1.0.so
 vendor/lib64/vendor.mediatek.hardware.nvram@1.1.so
+
+# Picture Quality
+vendor/bin/hw/vendor.mediatek.hardware.pq@2.2-service
+vendor/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc
+vendor/lib64/hw/mt6855/vendor.mediatek.hardware.pq@2.15-impl.so;DISABLE_CHECKELF
+vendor/lib64/libpqframework.so
+vendor/lib64/librgbwlightsensor.so
+vendor/lib64/mt6855/libpq_cust_base.so
+vendor/lib64/mt6855/libpq_prot.so
+vendor/lib64/mt6855/libpqparamparser.so
+vendor/lib64/vendor.mediatek.hardware.pq@2.0.so
+vendor/lib64/vendor.mediatek.hardware.pq@2.1.so
+vendor/lib64/vendor.mediatek.hardware.pq@2.10.so
+vendor/lib64/vendor.mediatek.hardware.pq@2.11.so
+vendor/lib64/vendor.mediatek.hardware.pq@2.12.so
+vendor/lib64/vendor.mediatek.hardware.pq@2.13.so
+vendor/lib64/vendor.mediatek.hardware.pq@2.14.so
+vendor/lib64/vendor.mediatek.hardware.pq@2.15.so
+vendor/lib64/vendor.mediatek.hardware.pq@2.2.so
+vendor/lib64/vendor.mediatek.hardware.pq@2.3.so
+vendor/lib64/vendor.mediatek.hardware.pq@2.4.so
+vendor/lib64/vendor.mediatek.hardware.pq@2.5.so
+vendor/lib64/vendor.mediatek.hardware.pq@2.6.so
+vendor/lib64/vendor.mediatek.hardware.pq@2.7.so
+vendor/lib64/vendor.mediatek.hardware.pq@2.8.so
+vendor/lib64/vendor.mediatek.hardware.pq@2.9.so
 
 # TEE
 vendor/bin/miteelog
