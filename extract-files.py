@@ -21,6 +21,8 @@ from extract_utils.main import (
 
 namespace_imports = [
     'device/xiaomi/beryl',
+    "hardware/mediatek",
+    "hardware/mediatek/libmtkperf_client"
 ]
 
 
