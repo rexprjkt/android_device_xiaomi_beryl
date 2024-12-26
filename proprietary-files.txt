@@ -2237,6 +2237,9 @@ vendor/etc/camera/xiaomi/thirdpartysnapshot.json
 vendor/etc/camera/xiaomi/uwfrontsuperlowlightshot.json
 vendor/etc/camera/xiaomi/uwsuperlowlightshot.json
 
+# ConsumerIR
+vendor/lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.mt6855.so;FIX_SONAME
+
 # Display configs
 vendor/etc/AbnormalDisplayLog_dynamic.xml
 vendor/etc/cust_color.xml
