@@ -128,9 +128,18 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.fingerprint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.fingerprint.xml
 
 # IMS
-$(call inherit-product, vendor/mediatek/ims/ims.mk)
+PRODUCT_BOOT_JARS += \
+    mediatek-common \
+    mediatek-ims-base \
+    mediatek-ims-common \
+    mediatek-framework \
+    mediatek-telecom-common \
+    mediatek-telephony-base \
+    mediatek-telephony-common \
+    mediatek-ims-extension-plugin
 
 PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/permissions/privapp-permissions-com.mediatek.ims.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-com.mediatek.ims.xml \
     frameworks/native/data/etc/android.software.ipsec_tunnels.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.ipsec_tunnels.xml \
     frameworks/native/data/etc/android.software.ipsec_tunnel_migration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.ipsec_tunnel_migration.xml \
     frameworks/native/data/etc/android.hardware.telephony.gsm.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.telephony.gsm.xml \
@@ -319,6 +328,7 @@ PRODUCT_PACKAGES += \
     FrameworksResOverlayBeryl \
     SettingsResOverlayBeryl \
     SystemUIOverlayBeryl \
+    TelephonyOverlayBeryl \
     TetheringResOverlayBeryl \
     WifiResOverlayBeryl
 
