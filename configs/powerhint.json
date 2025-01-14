@@ -623,6 +623,11 @@
       },
       {
         "PowerHint": "GAME",
+        "Type": "EndHint",
+        "Value": "INTERACTION"
+      },
+      {
+        "PowerHint": "GAME",
         "Node": "CPUEfficiencyClusterMinFreq",
         "Duration": 0,
         "Value": "9999999"
