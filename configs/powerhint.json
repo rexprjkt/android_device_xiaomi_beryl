@@ -620,6 +620,24 @@
         "Node": "CPUSuperClusterMinFreq",
         "Duration": 0,
         "Value": "750000"
+      },
+      {
+        "PowerHint": "GAME",
+        "Node": "CPUEfficiencyClusterMinFreq",
+        "Duration": 0,
+        "Value": "9999999"
+      },
+      {
+        "PowerHint": "GAME",
+        "Node": "CPUSuperClusterMinFreq",
+        "Duration": 0,
+        "Value": "9999999"
+      },
+      {
+        "PowerHint": "GAME",
+        "Node": "GpuPwrLevel",
+        "Duration": 0,
+        "Value": "0"
       }
     ]
   }
