@@ -180,3 +180,15 @@ on  property:ro.product.name=citrine_p_global
 # Stop Serial Console
 on boot
     stop console
+
+on zygote-start
+    stop statsd
+
+service statsd /apex/com.android.os.statsd/bin/statsd
+    class main
+    socket statsdw dgram+passcred 0222 statsd statsd
+    user statsd
+    group statsd log
+    task_profiles ProcessCapacityHigh HighEnergySaving
+    override
+    disabled
