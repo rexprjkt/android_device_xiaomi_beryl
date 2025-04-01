@@ -574,6 +574,11 @@
         "Value": "100"
       },
       {
+        "PowerHint": "DEVICE_IDLE",
+        "Type": "DoHint",
+        "Value": "DISPLAY_INACTIVE"
+      },
+      {
         "PowerHint": "DISPLAY_INACTIVE",
         "Node": "ForegroundCpuset",
         "Duration": 0,
@@ -587,24 +592,6 @@
       },
       {
         "PowerHint": "DISPLAY_INACTIVE",
-        "Node": "TopAppCpuset",
-        "Duration": 0,
-        "Value": "0-3"
-      },
-      {
-        "PowerHint": "DISPLAY_IDLE",
-        "Node": "ForegroundWindowCpuset",
-        "Duration": 0,
-        "Value": "0-2"
-      },
-      {
-        "PowerHint": "DISPLAY_IDLE",
-        "Node": "RestrictedCpuset",
-        "Duration": 0,
-        "Value": "0-3"
-      },
-      {
-        "PowerHint": "DISPLAY_IDLE",
         "Node": "TopAppCpuset",
         "Duration": 0,
         "Value": "0-3"
