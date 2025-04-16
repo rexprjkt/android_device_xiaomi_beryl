@@ -138,7 +138,10 @@ blob_fixups: blob_fixups_user_type = {
     'vendor/lib64/mt6855/libmnl.so': blob_fixup()
     .add_needed('libcutils.so'),
     ('vendor/lib64/hw/android.hardware.gnss-impl-mediatek.so', 'vendor/bin/hw/android.hardware.gnss-service.mediatek'): blob_fixup()
-        .replace_needed('android.hardware.gnss-V1-ndk_platform.so', 'android.hardware.gnss-V1-ndk.so'),
+    .replace_needed('android.hardware.gnss-V1-ndk_platform.so', 'android.hardware.gnss-V1-ndk.so'),
+    'vendor/bin/mtk_agpsd': blob_fixup()
+    .replace_needed('libcrypto.so', 'libcrypto-v32.so')
+    .add_needed('libssl-v32.so'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
