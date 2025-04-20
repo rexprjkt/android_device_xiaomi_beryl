@@ -234,7 +234,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     init.insmod.sh \
     init.insmod.mt6855.cfg \
-    init.cgroup.rc \
     init.connectivity.rc \
     init.modem.rc \
     init.mt6855.rc \
