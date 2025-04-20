@@ -238,6 +238,7 @@ PRODUCT_PACKAGES += \
     init.modem.rc \
     init.mt6855.rc \
     init.mt6855.usb.rc \
+    init.mt6855.power.rc \
     init.mtkgki.rc \
     init.project.rc \
     init.sensor_2_0.rc \
