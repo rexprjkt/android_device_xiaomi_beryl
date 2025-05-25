@@ -181,6 +181,10 @@ vendor/etc/sixth_param/sixth_param_boost2.txt
 vendor/etc/sixth_param/sixth_param.txt
 vendor/etc/sixth_param/sixth_param_voip.txt
 
+# Batterysecret
+vendor/bin/batterysecret
+vendor/etc/init/init.batterysecret.rc
+
 # Bluetooth
 vendor/lib64/libbluetooth_mtk.so
 vendor/lib64/libbluetooth_mtk_pure.so
