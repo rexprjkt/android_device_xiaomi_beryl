@@ -1,5 +1,6 @@
 # MTK platform .rc configure
 
+import /vendor/etc/init/hw/init.batterysecret.rc
 import /vendor/etc/init/hw/init.connectivity.rc
 import /vendor/etc/init/hw/init.mt6855.usb.rc
 import /vendor/etc/init/hw/init.mt6855.power.rc
