@@ -69,6 +69,14 @@ PRODUCT_PACKAGES += \
     audio.bluetooth.default:64 \
     audio.usb.default:64
 
+PRODUCT_PACKAGES += \
+    audio_policy.stub \
+    libaudiofoundation.vendor \
+    libalsautils \
+    libnbaio_mono \
+    libtinycompress \
+    libdynproc
+
 # Audio Configuration
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/audio/,$(TARGET_COPY_OUT_VENDOR)/etc)

@@ -60,6 +60,7 @@ vendor/lib64/libspeechparser_vendor.so
 vendor/lib64/vendor.mediatek.hardware.audio@6.1.so
 vendor/lib64/vendor.mediatek.hardware.audio@7.1.so
 
+
 # Audio Configurations
 vendor/etc/AudioLog_dynamic.xml
 vendor/etc/audio_param/AudioParamOptions_mgvi.xml
