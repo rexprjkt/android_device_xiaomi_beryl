@@ -141,6 +141,11 @@ ro.vendor.mediatek.version.branch=alps-mp-s0.mp1.tc8sp-cs3
 ro.vendor.mediatek.version.release=alps-mp-s0.mp1.tc8sp-cs3-V1.67_xiaomi.s0mp1.k6855v1.64_P58
 ro.vendor.mgvi_name=mihal
 
+# Power
+vendor.powerhal.interaction.offset=0
+vendor.powerhal.interaction.min=50
+vendor.powerhal.interaction.max=150
+
 # PQ
 ro.vendor.pq.mtk_aal_support=1
 ro.vendor.pq.mtk_ai_scence_pq_support=0
