@@ -228,6 +228,8 @@ vendor/lib64/libcamalgo.utility.so
 vendor/lib64/libcamalgo.warp.so
 vendor/lib64/libcom.xiaomi.pluginutils.so
 vendor/lib64/libc++_shared.so
+vendor/lib64/libmorpho_HdrChecker.so
+vendor/lib64/lc_algoutils.so
 vendor/lib64/libCamera_gc16b3caacfrontimipiraw_3rd_Capture.so
 vendor/lib64/libCamera_gc16b3caacfrontimipiraw_3rd_Preview.so
 vendor/lib64/libCamera_gc16b3caacfrontimipiraw_3rd_Video.so
@@ -1621,6 +1623,9 @@ vendor/lib64/libCamera_sc820csofilmultraiimipiraw_Video_720p_30fps.so
 vendor/lib64/libcamera_scene.so
 vendor/lib64/libcam.seninfn3d.so
 vendor/lib64/libheichal.so
+vendor/lib64/libJpgEncPipe.so
+vendor/lib64/libjpeg-alpha_vendor.so
+vendor/lib64/libjpeg-alpha-oal_vendor.so
 vendor/lib64/libmialgo_ai_vision.so
 vendor/lib64/libmialgoengine2.so
 vendor/lib64/libmialgoengine.so
@@ -1719,6 +1724,8 @@ vendor/lib64/mt6855/libcameracustom.flashlight.so
 vendor/lib64/mt6855/libcameracustom.lens.so
 vendor/lib64/mt6855/libcameracustom.plugin.so
 vendor/lib64/mt6855/libcameracustom.so
+vendor/lib64/mt6855/liblpcnr.so
+vendor/lib64/mt6855/libmsnr.so
 vendor/lib64/mt6855/libmtkcam.atmseventmgr.so
 vendor/lib64/mt6855/libmtkcam.eventcallback.so
 vendor/lib64/mt6855/libmtkcam.featurepipe.capture.so
@@ -1782,6 +1789,7 @@ vendor/lib64/mt6855/libmtkcam_synchelper.so
 vendor/lib64/mt6855/libmtkcam_sysutils.so
 vendor/lib64/mt6855/libmtkcam_tuning_utils.so
 vendor/lib64/mt6855/libmtkcam_ulog.so
+vendor/lib64/mt6855/libpda_usdriver.so
 vendor/lib64/mt6855/libSonyIMX230PdafLibrary.so
 vendor/lib64/mt6855/libSonyIMX230PdafLibraryWrapper.so
 vendor/lib64/mt6855/libSonyIMX338PdafLibrary.so
@@ -1806,10 +1814,13 @@ vendor/lib64/mt6855/libPVROCL.so
 vendor/lib64/mt6855/libPVRScopeServices.so
 vendor/lib64/mt6855/libsrv_um.so
 vendor/lib64/mt6855/libufwriter.so
+vendor/lib64/mt6855/libusc.so
 vendor/lib64/mt6855/libimageio.so
 vendor/lib64/mt6855/libimageio_plat_drv.so
 vendor/lib64/mt6855/libimageio_plat_pipe.so
-vendor/lib64/mt6855/libIMGegl.so
+vendor/lib64/mt6855/lib_bsscore.so
+vendor/lib64/mt6855/libpqpconfig.so
+vendor/lib64/mt6855/libstereoinfoaccessor_vsdof.so
 vendor/lib64/mt6855/mtk000_mipi_raw_IdxMgr.so
 vendor/lib64/mt6855/mtk000_mipi_raw_tuning.so
 vendor/lib64/mt6855/gc16b3c_aac_front_i_mipi_raw_global_IdxMgr.so
@@ -2295,6 +2306,7 @@ vendor/bin/hw/mt6855/android.hardware.graphics.allocator@4.0-service-mediatek.mt
 vendor/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc
 vendor/etc/meow.cfg
 vendor/lib/egl/egl.cfg
+vendor/lib64/mt6855/libIMGegl.so
 vendor/lib64/egl/libMEOW_trace.so
 vendor/lib64/egl/mt6855/libEGL_mtk.so
 vendor/lib64/egl/mt6855/libGLESv1_CM_mtk.so
@@ -2445,6 +2457,7 @@ vendor/lib64/libcmdl_ndk.mtk.vndk.so
 vendor/lib64/libneuron_graph_delegate.mtk.so
 vendor/lib64/libneuron_platform.so
 vendor/lib64/libnir_neon_driver_ndk.mtk.vndk.so;FIX_SONAME
+vendor/lib64/libneuron_runtime.6.so
 vendor/lib64/libnpagent.so
 vendor/lib64/libnpagent_server.so
 vendor/lib64/libtflite_mtk.so
