@@ -47,9 +47,7 @@ ro.vendor.display.video_or_camera_fps.support=true
 ro.vendor.mtk_camera_app_version=3
 ro.vendor.mtk_cam_security_support=0
 vendor.camera.aux.packagelistext=com.longcheertel.cit
-vendor.camera.mdp.cz.enable=0
 vendor.camera.mdp.cz.enable=1
-vendor.camera.mdp.dre.enable=0
 vendor.camera.mdp.dre.enable=1
 vendor.mtk.camera.app.fd.video=1
 

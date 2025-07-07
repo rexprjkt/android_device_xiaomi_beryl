@@ -229,7 +229,7 @@ PRODUCT_COPY_FILES += \
 # Init scripts
 PRODUCT_PACKAGES += \
     init.insmod.sh \
-    init.insmod.mtk.cfg \
+    init.insmod.mt6855.cfg \
     init.cgroup.rc \
     init.connectivity.rc \
     init.modem.rc \
