@@ -1813,6 +1813,7 @@ vendor/lib64/mt6855/libimageio_plat_pipe.so
 vendor/lib64/mt6855/lib_bsscore.so
 vendor/lib64/mt6855/libpqpconfig.so
 vendor/lib64/mt6855/libstereoinfoaccessor_vsdof.so
+vendor/lib64/mt6855/libvainr_model.so
 vendor/lib64/mt6855/mtk000_mipi_raw_IdxMgr.so
 vendor/lib64/mt6855/mtk000_mipi_raw_tuning.so
 vendor/lib64/mt6855/gc16b3c_aac_front_i_mipi_raw_global_IdxMgr.so
@@ -2241,6 +2242,39 @@ vendor/etc/AbnormalDisplayLog_dynamic.xml
 vendor/etc/cust_color.xml
 vendor/etc/dsi_panel_o17_38_0c_0a_fhdp_vdo_mi.xml
 vendor/etc/screen_light.xml
+vendor/etc/disp0/dsi_panel_o17_38_0c_0a_fhdp_vdo/cct_pcc.txt
+vendor/etc/disp0/dsi_panel_o17_38_0c_0a_fhdp_vdo/miLut_0.txt
+vendor/etc/disp0/dsi_panel_o17_38_0c_0a_fhdp_vdo/miLut_10.txt
+vendor/etc/disp0/dsi_panel_o17_38_0c_0a_fhdp_vdo/miLut_11.txt
+vendor/etc/disp0/dsi_panel_o17_38_0c_0a_fhdp_vdo/miLut_12.txt
+vendor/etc/disp0/dsi_panel_o17_38_0c_0a_fhdp_vdo/miLut_13.txt
+vendor/etc/disp0/dsi_panel_o17_38_0c_0a_fhdp_vdo/miLut_14.txt
+vendor/etc/disp0/dsi_panel_o17_38_0c_0a_fhdp_vdo/miLut_15.txt
+vendor/etc/disp0/dsi_panel_o17_38_0c_0a_fhdp_vdo/miLut_16.txt
+vendor/etc/disp0/dsi_panel_o17_38_0c_0a_fhdp_vdo/miLut_17.txt
+vendor/etc/disp0/dsi_panel_o17_38_0c_0a_fhdp_vdo/miLut_18.txt
+vendor/etc/disp0/dsi_panel_o17_38_0c_0a_fhdp_vdo/miLut_19.txt
+vendor/etc/disp0/dsi_panel_o17_38_0c_0a_fhdp_vdo/miLut_1.txt
+vendor/etc/disp0/dsi_panel_o17_38_0c_0a_fhdp_vdo/miLut_20.txt
+vendor/etc/disp0/dsi_panel_o17_38_0c_0a_fhdp_vdo/miLut_21.txt
+vendor/etc/disp0/dsi_panel_o17_38_0c_0a_fhdp_vdo/miLut_22.txt
+vendor/etc/disp0/dsi_panel_o17_38_0c_0a_fhdp_vdo/miLut_23.txt
+vendor/etc/disp0/dsi_panel_o17_38_0c_0a_fhdp_vdo/miLut_24.txt
+vendor/etc/disp0/dsi_panel_o17_38_0c_0a_fhdp_vdo/miLut_25.txt
+vendor/etc/disp0/dsi_panel_o17_38_0c_0a_fhdp_vdo/miLut_26.txt
+vendor/etc/disp0/dsi_panel_o17_38_0c_0a_fhdp_vdo/miLut_27.txt
+vendor/etc/disp0/dsi_panel_o17_38_0c_0a_fhdp_vdo/miLut_28.txt
+vendor/etc/disp0/dsi_panel_o17_38_0c_0a_fhdp_vdo/miLut_29.txt
+vendor/etc/disp0/dsi_panel_o17_38_0c_0a_fhdp_vdo/miLut_2.txt
+vendor/etc/disp0/dsi_panel_o17_38_0c_0a_fhdp_vdo/miLut_30.txt
+vendor/etc/disp0/dsi_panel_o17_38_0c_0a_fhdp_vdo/miLut_3.txt
+vendor/etc/disp0/dsi_panel_o17_38_0c_0a_fhdp_vdo/miLut_4.txt
+vendor/etc/disp0/dsi_panel_o17_38_0c_0a_fhdp_vdo/miLut_5.txt
+vendor/etc/disp0/dsi_panel_o17_38_0c_0a_fhdp_vdo/miLut_6.txt
+vendor/etc/disp0/dsi_panel_o17_38_0c_0a_fhdp_vdo/miLut_7.txt
+vendor/etc/disp0/dsi_panel_o17_38_0c_0a_fhdp_vdo/miLut_8.txt
+vendor/etc/disp0/dsi_panel_o17_38_0c_0a_fhdp_vdo/miLut_9.txt
+vendor/etc/disp0/dsi_panel_o17_38_0c_0a_fhdp_vdo/miLutInfo.txt
 
 # DRM (Digital Rights Management)
 vendor/bin/hw/android.hardware.drm@1.4-service.widevine
@@ -2310,6 +2344,9 @@ vendor/lib64/egl/libGLES_meow.so
 vendor/lib64/hw/hwcomposer.mtk_common.so
 vendor/lib64/hw/mt6855/android.hardware.graphics.mapper@4.0-impl-mediatek.so
 vendor/lib64/hw/mt6855/gralloc.rogue.so
+vendor/lib64/mt6855/libmemtrack_GL.so
+vendor/lib64/mt6855/libmnl.so
+vendor/lib64/mt6855/libmpvr.so
 vendor/lib64/hw/mt6855/vulkan.mtk.so
 vendor/lib64/libDefaultFpsActor.so
 vendor/lib64/libFrameRecord.so
@@ -2513,7 +2550,7 @@ vendor/lib64/vendor.mediatek.hardware.power@1.1.so
 vendor/lib64/vendor.mediatek.hardware.power@2.0.so
 
 # Sensors
-vendor/lib64/hw/sensors.mediatek.V2.0.so:vendor/lib64/hw/sensors.mt6789.so;FIX_SONAME
+vendor/lib64/hw/sensors.mediatek.V2.0.so:vendor/lib64/hw/sensors.mt6855.so;FIX_SONAME
 vendor/lib64/libhfmanager.so
 vendor/lib64/libhfmanagerwrapper.so
 vendor/lib64/libksensor.so
