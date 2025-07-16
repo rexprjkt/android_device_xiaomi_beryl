@@ -182,6 +182,14 @@ vendor/etc/sixth_param/sixth_param_boost2.txt
 vendor/etc/sixth_param/sixth_param.txt
 vendor/etc/sixth_param/sixth_param_voip.txt
 
+# Audio (misound)
+vendor/etc/misound_res.bin
+vendor/etc/misound_res_headphone.bin
+vendor/etc/misound_res_spk.bin
+vendor/lib64/libmisoundcrossfade.so
+vendor/lib64/libmisound.so
+vendor/lib64/soundfx/libmisoundfx.so
+
 # Batterysecret
 vendor/bin/batterysecret
 
