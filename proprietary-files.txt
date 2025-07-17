@@ -186,7 +186,7 @@ vendor/etc/sixth_param/sixth_param_voip.txt
 vendor/etc/misound_res.bin
 vendor/etc/misound_res_headphone.bin
 vendor/etc/misound_res_spk.bin
-vendor/lib64/libmisoundcrossfade.so
+vendor/lib64/libmisoundcrossfade.so;FIX_SONAME
 vendor/lib64/libmisound.so
 vendor/lib64/soundfx/libmisoundfx.so
 
@@ -2312,6 +2312,7 @@ vendor/lib64/soundfx/libswvqe.so
 vendor/lib64/libdapparamstorage.so
 vendor/lib64/libdeccfg.so
 vendor/lib64/libdlbdsservice.so
+vendor/lib64/libdlbpreg.so
 vendor/lib64/vendor.dolby.hardware.dms@2.0-impl.so
 vendor/lib64/vendor.dolby.hardware.dms@2.0.so
 
