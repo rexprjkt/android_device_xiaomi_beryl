@@ -32,6 +32,7 @@ genfscon sysfs /devices/platform/11016000.i2c/i2c-5/5-0034/mt6370-charger/power_
 genfscon sysfs /devices/platform/11016000.i2c/i2c-5/5-0034/mt6370_chg.1.auto/power_supply u:object_r:sysfs_power_supply:s0
 genfscon sysfs /devices/platform/11016000.i2c/i2c-5/5-0034/mt6370_chg.3.auto/power_supply u:object_r:sysfs_power_supply:s0
 genfscon sysfs /devices/platform/11016000.i2c/i2c-5/5-0034/mt6370_pmu_charger/power_supply u:object_r:sysfs_power_supply:s0
+genfscon sysfs /devices/platform/11db1000.i2c/i2c-6/6-006d/power_supply/nu2115-standalone/type u:object_r:sysfs_power_supply:s0
 genfscon sysfs /devices/platform/11280000.i2c/i2c-10/10-0055/power_supply/ u:object_r:sysfs_power_supply:s0
 genfscon sysfs /devices/platform/11b20000.i2c/i2c-5/5-0034/11b20000.i2c:mt6375@34:mtk_gauge/power_supply/battery/battery_type u:object_r:sysfs_power_supply:s0
 genfscon sysfs /devices/platform/11b20000.i2c/i2c-5/5-0034/11b20000.i2c:mt6375@34:mtk_gauge/power_supply/battery/capacity u:object_r:sysfs_power_supply:s0
