@@ -177,9 +177,18 @@ on  property:ro.product.name=citrine_p_global
     write /sys/class/power_supply/battery/country_code 4
 #add for ERP Feature of charge end
 
-# Stop Serial Console
 on boot
+    # Stop Serial Console
     stop console
+
+    # Change owner for GED KPI
+    chown system system /sys/module/sspm_v3/holders/ged/parameters/is_GED_KPI_enabled
+    chmod 0644 /sys/module/sspm_v3/holders/ged/parameters/is_GED_KPI_enabled
+
+on property:sys.boot_completed=1
+    # Disable GED KPI
+    write /sys/module/sspm_v3/holders/ged/parameters/is_GED_KPI_enabled 0
+    chmod 0444 /sys/module/sspm_v3/holders/ged/parameters/is_GED_KPI_enabled
 
 on zygote-start
     stop statsd
