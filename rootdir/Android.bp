@@ -59,6 +59,13 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
+    name: "init.mi_thermald.rc",
+    src: "etc/init/init.mi_thermald.rc",
+    sub_dir: "init",
+    vendor: true
+}
+
+prebuilt_etc {
     name: "init.modem.rc",
     src: "etc/init/hw/init.modem.rc",
     sub_dir: "init/hw",
