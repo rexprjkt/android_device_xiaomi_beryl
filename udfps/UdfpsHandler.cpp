@@ -36,6 +36,7 @@
 #define Touch_Fod_Enable 10
 #define TOUCH_MAGIC 't'
 #define TOUCH_IOC_SETMODE _IO(TOUCH_MAGIC, SET_CUR_VALUE)
+#define TOUCH_ID 0
 
 #define TOUCH_DEV_PATH "/dev/xiaomi-touch"
 #define DISP_FEATURE_PATH "/dev/mi_display/disp_feature"
@@ -166,13 +167,13 @@ class XiaomiBerylUdfpsHandler : public UdfpsHandler {
         LOG(DEBUG) << __func__ << " result: " << result << " vendorCode: " << vendorCode;
         if (result != FINGERPRINT_ACQUIRED_VENDOR) {
             if (static_cast<AcquiredInfo>(result) == AcquiredInfo::GOOD) {
-                // Request to disable HBM already, even if the finger is still pressed
-                disp_local_hbm_req req;
-                req.base.flag = 0;
-                req.base.disp_id = MI_DISP_PRIMARY;
-                req.local_hbm_value = LHBM_TARGET_BRIGHTNESS_OFF_FINGER_UP;
-                ioctl(disp_fd_.get(), MI_DISP_IOCTL_SET_LOCAL_HBM, &req);
-                setFodStatus(FOD_STATUS_OFF);
+            // Request to disable HBM already, even if the finger is still pressed
+            disp_local_hbm_req req;
+            req.base.flag = 0;
+            req.base.disp_id = MI_DISP_PRIMARY;
+            req.local_hbm_value = LHBM_TARGET_BRIGHTNESS_OFF_FINGER_UP;
+            ioctl(disp_fd_.get(), MI_DISP_IOCTL_SET_LOCAL_HBM, &req);
+            setFodStatus(FOD_STATUS_OFF);
             }
         } else if (vendorCode == 21 || vendorCode == 23) {
             /*
@@ -201,13 +202,13 @@ class XiaomiBerylUdfpsHandler : public UdfpsHandler {
 
     void setFodStatus(int value) {
         set(FOD_STATUS_PATH, value);
-        int arg[3] = {Touch_Fod_Enable, value};
+        int arg[3] = {TOUCH_ID, Touch_Fod_Enable, value};
         ioctl(touch_fd_, TOUCH_IOC_SETMODE, &arg);
     }
 
     void setFingerDown(bool pressed) {
         // xiaomi-touch
-        int arg[3] = {Touch_Fod_Enable, pressed ? 1 : 0};
+        int arg[3] = {TOUCH_ID, Touch_Fod_Enable, pressed ? 1 : 0};
         ioctl(touch_fd_, TOUCH_IOC_SETMODE, &arg);
 
         // Request HBM
