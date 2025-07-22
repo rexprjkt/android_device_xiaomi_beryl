@@ -206,14 +206,3 @@ on boot && property:ro.boot.product.hardware.sku=o17gl
 
 on boot && property:ro.boot.product.hardware.sku=o17pgl
     enable vendor.nfc_hal_service
-
-# DT2W
-on boot
-    chmod 0666 /system/bin/sendevent
-    chmod 0666 /dev/input/event2
-
-on property:persist.sys.MT6855.dt2w=0
-    exec - root -- /system/bin/sendevent /dev/input/event2 0 1 4
-
-on property:persist.sys.MT6855.dt2w=1
-    exec - root -- /system/bin/sendevent /dev/input/event2 0 1 5
